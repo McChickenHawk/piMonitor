@@ -104,10 +104,6 @@ def startMonitor():
         for i in connectionList:
             i.pingHost()
 
-
-# print(connections)
-# print(connectionList[0].pingHost())
-
 if __name__ == '__main__':
     startMonitor()
 
